@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#dashboard, #item-details {
+    margin-top: 20px;
+}
+
+#item-list div, #comments div {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
